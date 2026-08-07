@@ -311,7 +311,6 @@ I will:
 | Flashcards created | 20+ | ☐ |
 | Can explain concepts aloud | Yes | ☐ |
 
----
 
 ---
 
