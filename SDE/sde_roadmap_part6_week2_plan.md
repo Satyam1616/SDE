@@ -113,7 +113,7 @@
 | Time | Activity | Details |
 |------|----------|---------|
 | 1.5h | **DSA: Binary Search** | Learn: binary search template (left ≤ right vs left < right). Solve: Binary Search (LC #704), Search Insert Position (LC #35), First and Last Position (LC #34), Search in Rotated Sorted Array (LC #33) |
-| 1h | **DSA: Binary Search Advanced** | Solve: Find Minimum in Rotated Sorted Array (LC #153), Peak Element (LC #162), Koko Eating Bananas (LC #875 — binary search on answer) |
+| 1h | **DSA: Binary Search Advanced** | Solve: Find Minimum in Rotated Sorted Array (LC #153), Peak Element (LC #162), Koko Eating Bananas (LC #875 — binary search on answer) |   
 | 1h | **JS: Event Loop Deep Dive** | 10 output prediction questions. `process.nextTick` vs `setImmediate` (Node.js). Microtask priority edge cases. |
 | 30m | **Catch-up** | Any topic from this week you feel behind on. Re-attempt any problem you got wrong. |
 | 30m | **Revision** | Full flashcard deck review (should have 40+ cards by now) + mistake notebook |
