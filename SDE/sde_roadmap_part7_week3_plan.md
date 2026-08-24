@@ -217,18 +217,21 @@ PROBLEM: Subsets (LC #78)
 
 ---
 
-### Day 18: Heaps & Priority Queues + React Custom Hooks
+### Day 18: Heaps & Priority Queues + React Custom Hooks + 🟡 Day 17 Carry-Over
 
 | Time | Activity | Details |
 |------|----------|---------|
+| 10m | **🔴 Warm-up: Backtracking** | Speed-solve Subsets (LC #78) — target: under 5 min, no hints. This was skipped from Day 17 revision. If you fail, add 15 min extra practice tonight. |
 | 1.5h | **DSA: Heap Fundamentals** | Learn min/max heap, priority_queue in C++. Solve: Kth Largest Element in Array (LC #215), Top K Frequent Elements (LC #347), Last Stone Weight (LC #1046) |
 | 1h | **DSA: Heap Applications** | Solve: Find Median from Data Stream (LC #295 — understand approach), Merge K Sorted Lists (LC #23) |
 | 1h | **React: Custom Hooks** | Build: useFetch, useDebounce, useLocalStorage. Extract reusable logic patterns. |
-| 30m | **Revision** | Spaced recall from Day 14 (4 days ago): All 27 patterns, timed test review |
-| 30m | **Flashcards** | Create 5 new cards: heap operations, priority queue use cases, custom hook rules |
+| 45m | **Revision (COMBINED — Day 17 carry-over + Day 18)** | **From Day 17 (skipped):** Spaced recall from Day 13 — Binary search templates, BS on answer space (Search in Rotated Sorted Array, Koko Eating Bananas). Cold-solve Subsets (LC #78) if warm-up didn't go well. **Day 18 own:** Spaced recall from Day 14 (4 days ago) — All 27 patterns, timed test review. Cold re-solve Permutations (LC #46). Also: Spaced recall from Day 16 (2 days ago) — BST operations, Validate BST. |
+| 45m | **Flashcards (COMBINED — Day 17 carry-over + Day 18)** | **From Day 17 (skipped, create these FIRST):** LCA approach (BST vs Binary Tree difference), diameter technique (global max + return height), useMemo vs useCallback (when to use each). **Day 18 own:** heap operations (insert/delete/peek complexities), priority_queue C++ syntax (min vs max), Top K pattern (min heap of size k), Two Heaps pattern (median), custom hook rules (prefix with "use", top-level only). **Total: ~10 cards this session to catch up.** |
+
+> ⚠️ **Day 17 carry-over:** Revision and Flashcards were skipped yesterday. Today's session is 15 min longer for each to cover both days. Prioritize the Day 17 cards first since they're already a day late for spaced repetition.
 
 **Resources:** LeetCode Heap tag, NeetCode Heap playlist
-**By end of day:** 73 total DSA problems. Heap operations understood. 3 custom hooks built.
+**By end of day:** 73 total DSA problems. Heap operations understood. 3 custom hooks built. **Day 17 debt cleared — all flashcards and revision caught up.**
 
 ---
 
