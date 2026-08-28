@@ -257,7 +257,7 @@ PROBLEM: Subsets (LC #78)
 | 30m | **🔴 COLD STRESS TEST: Week 2 Weak Areas (TIMED, NO HINTS)** | Set a 30-min timer. Solve these 3 problems cold: (1) Longest Substring Without Repeating (LC #3) — 8 min, (2) Subsets (LC #78) — 8 min, (3) Combination Sum (LC #39) — 10 min. Grade yourself: if you solve all 3 without hints, your weak areas are FIXED. |
 | 1h | **DSA: Mixed Practice** | Re-solve: 1 tree (Validate BST), 1 heap (Top K Frequent), 1 greedy (Jump Game), 1 binary search (Koko Bananas) |
 | 1h | **React: React Router** | BrowserRouter, Routes, Route, Link, useNavigate, useParams, protected routes, 404 handling |
-| 1h | **Catch-up** | Any weak topic from this week. Re-attempt problems you got wrong. Extra tree/heap problems if confident. |
+| 1h | **Catch-up** | Any weak topic from this week. Re-attempt problems you got wrong. Extra tree/heap problems if confident. |    
 | 30m | **Revision** | Spaced recall from Day 16 (4 days ago): BST operations, Validate BST |
 | 30m | **Flashcards** | Full deck review + 5 new cards: React Router patterns, protected route logic |
 
@@ -283,9 +283,97 @@ PROBLEM: Subsets (LC #78)
 
 ---
 
-## 36. Week 3 — All LeetCode Problems List
+## 36. Cumulative — All LeetCode Problems List (Week 1 + Week 2 + Week 3)
 
-### Trees & BST (Day 15-17) — 14 problems
+### ✅ WEEK 1: Arrays (Day 1-7) — 16 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 1 | Two Sum | [LC #1](https://leetcode.com/problems/two-sum/) | Easy | Hash Map |
+| 2 | Palindrome Number | [LC #9](https://leetcode.com/problems/palindrome-number/) | Easy | Math |
+| 3 | Reverse String | [LC #344](https://leetcode.com/problems/reverse-string/) | Easy | Two Pointer |
+| 4 | Contains Duplicate | [LC #217](https://leetcode.com/problems/contains-duplicate/) | Easy | Hash Map |
+| 5 | Best Time to Buy and Sell Stock | [LC #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | Kadane's / One Pass |
+| 6 | Maximum Subarray | [LC #53](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm |
+| 7 | Product of Array Except Self | [LC #238](https://leetcode.com/problems/product-of-array-except-self/) | Medium | Prefix Sum |
+| 8 | Move Zeroes | [LC #283](https://leetcode.com/problems/move-zeroes/) | Easy | Two Pointer Swap |
+| 9 | Sort Colors | [LC #75](https://leetcode.com/problems/sort-colors/) | Medium | Two Pointer Swap (Dutch Flag) |
+| 10 | Merge Intervals | [LC #56](https://leetcode.com/problems/merge-intervals/) | Medium | Sort + Merge |
+| 11 | Set Matrix Zeroes | [LC #73](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | In-place Marking |
+| 12 | Next Permutation | [LC #31](https://leetcode.com/problems/next-permutation/) | Medium | Observation-based |
+| 13 | Rotate Array | [LC #189](https://leetcode.com/problems/rotate-array/) | Medium | Reverse Trick |
+| 14 | Majority Element | [LC #169](https://leetcode.com/problems/majority-element/) | Easy | Boyer-Moore Voting |
+| 15 | Pascal's Triangle | [LC #118](https://leetcode.com/problems/pascals-triangle/) | Easy | Build from Previous |
+| 16 | 3Sum | [LC #15](https://leetcode.com/problems/3sum/) | Medium | Sort + Two Pointers |
+
+> **Also solved in Week 1 (not numbered):** Container With Most Water (LC #11), Subarray Sum Equals K (LC #560), Missing Number (LC #268)
+
+---
+
+### ✅ WEEK 2: Strings + Linked Lists + Stacks + Backtracking + Binary Search (Day 8-14) — 32 problems
+
+#### Strings (Day 8-9) — 7 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 17 | Valid Anagram | [LC #242](https://leetcode.com/problems/valid-anagram/) | Easy | Frequency Map |
+| 18 | Valid Palindrome | [LC #125](https://leetcode.com/problems/valid-palindrome/) | Easy | Two Pointer (String) |
+| 19 | Longest Substring Without Repeating Characters | [LC #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | Sliding Window |
+| 20 | Group Anagrams | [LC #49](https://leetcode.com/problems/group-anagrams/) | Medium | Frequency Map / Sorting |
+| 21 | Longest Palindromic Substring | [LC #5](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | Expand Around Center |
+| 22 | String to Integer (atoi) | [LC #8](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | Parsing / Edge Cases |
+| 23 | Implement strStr() | [LC #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | String Matching |
+
+#### Linked Lists (Day 9-10) — 6 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 24 | Reverse Linked List | [LC #206](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List Reversal |
+| 25 | Linked List Cycle | [LC #141](https://leetcode.com/problems/linked-list-cycle/) | Easy | Fast & Slow Pointer |
+| 26 | Merge Two Sorted Lists | [LC #21](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Merge Two Lists |
+| 27 | Middle of Linked List | [LC #876](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | Fast & Slow Pointer |
+| 28 | Remove Nth Node From End | [LC #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | Two Pointer (Gap) |
+| 29 | Intersection of Two Linked Lists | [LC #160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | Two Pointer (Length Diff) |
+
+#### Stacks & Queues (Day 11) — 6 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 30 | Valid Parentheses | [LC #20](https://leetcode.com/problems/valid-parentheses/) | Easy | Stack for Matching |
+| 31 | Min Stack | [LC #155](https://leetcode.com/problems/min-stack/) | Medium | Auxiliary Stack |
+| 32 | Next Greater Element I | [LC #496](https://leetcode.com/problems/next-greater-element-i/) | Easy | Monotonic Stack |
+| 33 | Daily Temperatures | [LC #739](https://leetcode.com/problems/daily-temperatures/) | Medium | Monotonic Stack |
+| 34 | Implement Stack using Queues | [LC #225](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | Data Structure Design |
+| 35 | Implement Queue using Stacks | [LC #232](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | Data Structure Design |
+
+#### Recursion & Backtracking (Day 12) — 6 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 36 | Subsets | [LC #78](https://leetcode.com/problems/subsets/) | Medium | Choose-Explore-Unchoose |
+| 37 | Permutations | [LC #46](https://leetcode.com/problems/permutations/) | Medium | Choose-Explore-Unchoose |
+| 38 | Combination Sum | [LC #39](https://leetcode.com/problems/combination-sum/) | Medium | Choose-Explore-Unchoose |
+| 39 | Letter Combinations of a Phone Number | [LC #17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | Backtracking |
+| 40 | Palindrome Partitioning | [LC #131](https://leetcode.com/problems/palindrome-partitioning/) | Medium | Backtracking + Palindrome |
+| 41 | N-Queens | [LC #51](https://leetcode.com/problems/n-queens/) | Hard | Backtracking + Constraint |
+
+#### Binary Search (Day 13) — 7 problems
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+|---|---------|----------|------------|---------|
+| 42 | Binary Search | [LC #704](https://leetcode.com/problems/binary-search/) | Easy | Binary Search Template |
+| 43 | Search Insert Position | [LC #35](https://leetcode.com/problems/search-insert-position/) | Easy | Binary Search Template |
+| 44 | First and Last Position | [LC #34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search (Bounds) |
+| 45 | Search in Rotated Sorted Array | [LC #33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | BS on Rotated Array |
+| 46 | Find Minimum in Rotated Sorted Array | [LC #153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | BS on Rotated Array |
+| 47 | Find Peak Element | [LC #162](https://leetcode.com/problems/find-peak-element/) | Medium | Binary Search (Condition) |
+| 48 | Koko Eating Bananas | [LC #875](https://leetcode.com/problems/koko-eating-bananas/) | Medium | BS on Answer Space |
+
+---
+
+### ✅ WEEK 3: Trees + Heaps + Greedy (Day 15-21) — 28 problems
+
+#### Trees & BST (Day 15-17) — 18 problems
 
 | # | Problem | LeetCode | Difficulty | Pattern |
 |---|---------|----------|------------|---------|
